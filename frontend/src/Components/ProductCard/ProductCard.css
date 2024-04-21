@@ -1,0 +1,30 @@
+#ProductCard{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    padding: 1rem;
+    border-width: 0.2rem;
+    border-radius: 0.5rem;
+    align-items: center ;
+    margin-bottom: 1rem;
+}
+
+#ForwardButton{
+    margin-top: 2rem;
+    background-color: rgb(24, 80, 190);
+    color: aliceblue !important;
+    border-width: 0;
+    width: 15rem;
+    height: 3rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+
+#ForwardButton:hover{
+    background-color: rgb(85, 121, 192);
+    color: #282c34 !important;
+}
+  
+#ForwardButton:active{
+    transform: translateY(0.25rem)
+}

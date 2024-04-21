@@ -1,0 +1,49 @@
+#Toolbar {
+    opacity: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(24, 80, 190);
+    color: aliceblue;
+    height: 4rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0rem;
+  }
+  .toolbarButton{
+    display: flex;
+    color: aliceblue;
+    font-size: 1rem;
+    height: 2rem;
+    min-width: 7rem;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-weight: bolder;
+    border: 0px;
+  }
+  
+  .toolbarButton:hover{
+    background-color: white;
+    color: #282c34 !important;
+  }
+  
+  .toolbarButton:active{
+    transform: translateY(0.25rem)
+  }
+  
+  .toolbarButton:disabled{
+    
+    background-color: transparent;
+    color: rgb(138, 136, 136) !important
+  }
+  
+  .toolbarButton:disabled:hover{
+    
+    color: rgb(138, 136, 136)
+  }
+  
+  .toolbarButton:disabled:active{
+    transform: translateY(0rem)
+  }
